@@ -19,6 +19,8 @@
 		44625C281944C54000F2BB14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44625C101944C54000F2BB14 /* UIKit.framework */; };
 		44625C301944C54000F2BB14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44625C2E1944C54000F2BB14 /* InfoPlist.strings */; };
 		44625C321944C54000F2BB14 /* FB_PostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44625C311944C54000F2BB14 /* FB_PostTests.m */; };
+		44625C3E1944C5D900F2BB14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44625C3C1944C5D900F2BB14 /* ViewController.m */; };
+		44625C3F1944C5D900F2BB14 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44625C3D1944C5D900F2BB14 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		44625C2D1944C54000F2BB14 /* FB-PostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FB-PostTests-Info.plist"; sourceTree = "<group>"; };
 		44625C2F1944C54000F2BB14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44625C311944C54000F2BB14 /* FB_PostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FB_PostTests.m; sourceTree = "<group>"; };
+		44625C3B1944C5D900F2BB14 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44625C3C1944C5D900F2BB14 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44625C3D1944C5D900F2BB14 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,9 @@
 		44625C001944C54000F2BB14 = {
 			isa = PBXGroup;
 			children = (
+				44625C3B1944C5D900F2BB14 /* ViewController.h */,
+				44625C3C1944C5D900F2BB14 /* ViewController.m */,
+				44625C3D1944C5D900F2BB14 /* ViewController.xib */,
 				44625C121944C54000F2BB14 /* FB-Post */,
 				44625C2B1944C54000F2BB14 /* FB-PostTests */,
 				44625C0B1944C54000F2BB14 /* Frameworks */,
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44625C171944C54000F2BB14 /* InfoPlist.strings in Resources */,
+				44625C3F1944C5D900F2BB14 /* ViewController.xib in Resources */,
 				44625C1F1944C54000F2BB14 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44625C3E1944C5D900F2BB14 /* ViewController.m in Sources */,
 				44625C1D1944C54000F2BB14 /* AppDelegate.m in Sources */,
 				44625C191944C54000F2BB14 /* main.m in Sources */,
 			);
