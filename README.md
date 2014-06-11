@@ -1,7 +1,5 @@
 FB-Post
 =======
-
-First Homework
 ![screenshot] (/Week1_hw5.gif?raw=true "GIF")
 
 Took 20 hours to complete.
